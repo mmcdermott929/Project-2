@@ -128,6 +128,8 @@ footer.main-header a {
   margin-left: auto;
   
 }
-
+footer.main-header a {
+  text-transform: uppercase;
+}
 
 /* ---- Page Elements ---- */
