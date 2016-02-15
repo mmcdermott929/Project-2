@@ -1,0 +1,67 @@
+
+/* ================================= 
+  Base Styles
+==================================== */
+
+
+/*
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.row {
+	flex: 1;
+}
+*/
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+  .about-me {
+    padding-bottom: 25px;
+  }
+  .main-nav,
+  .about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+  }
+  .developer-image {
+    padding: 10px 25px 10px 10px;
+    flex-basis: 45%;
+  }
+  .main-nav a {
+    background-color: inherit;
+  }
+  .about-me p {
+    order: -1;
+    font-size: 1.2em;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1025px) {
+   .top-section {
+    padding: 0 25px 0 30px;
+  }
+  .main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+   .developer-image {
+    padding: 10px 50px 10px 10px;     
+   
+  } 
+  .developer-image {
+    padding: 10px 50px 10px 10px;    
+  }
+ 
+}
+ 
