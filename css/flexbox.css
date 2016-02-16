@@ -23,18 +23,31 @@ body {
 ==================================== */
 
 @media (min-width: 769px) {
-  .about-me {
-    padding-bottom: 25px;
-  }
   .main-nav,
-  .about-me {
+  .about-me,
+  .portfolio-container,.main-footer{
     display: flex;
     flex-direction: row;
     justify-content: center
   }
-  .developer-image {
+  .portfolio-container p, .contact p{
+	font-size: 1.3em
+}
+  .main-footer{
+    justify-content: space-between;
+  }
+   .about-me {
+    padding-bottom: 25px;
+  }
+  .portfolio-container h3{
+	flex-basis: 100%;
+}
+  .portfolio-container{
+    flex-wrap: wrap;
+  }
+  .developer-image,.card {
     padding: 10px 25px 10px 10px;
-    flex-basis: 45%;
+    flex-basis: 50%;
   }
   .main-nav a {
     background-color: inherit;
@@ -44,8 +57,22 @@ body {
     font-size: 1.2em;
     text-align: left;
   }
+  a.top-link {
+  display: none;
 }
 
+  ul.footer-nav{
+  display: flex;
+}
+  ul.footer-nav li a{
+    padding: 10px;
+  }
+  ul.footer-nav li{
+    padding-top: 10px;
+  }
+}
+
+/*---------------------- greater than 1024px ----*/
 @media (min-width: 1025px) {
    .top-section {
     padding: 0 25px 0 30px;
@@ -62,6 +89,15 @@ body {
   .developer-image {
     padding: 10px 50px 10px 10px;    
   }
- 
+ .card {
+    flex-basis: 33%;
+  }
+   .portfolio-container p{
+	font-size: 1.0em;
+}
+  .contact p{
+    padding: 10px 180px;
+    font-size: 1.5em;
+  }
 }
  

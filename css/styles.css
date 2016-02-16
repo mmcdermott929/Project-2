@@ -77,6 +77,9 @@ a {
 .portfolio-name {
 	text-align: center;
 }
+.portfolio-container>h3{
+  text-transform: uppercase;
+}
 .portfolio-name {
   color: dimgray;
   margin: 10px 0;
@@ -108,27 +111,32 @@ a {
   font-weight: normal;
 }
 
-footer{
+.footer-nav,.main-footer{
   display: flex;
-  flex-direction: row;
+  flex-direction: row;  
+  justify-content: space-between;
+  text-shadow: .75px .75px .75px rgba(150, 150, 150, 1);
 }
-footer ul{
+.footer-nav{
+   text-transform: uppercase;
+}
+ul.footer-nav{
   display: none;
 }
-footer h3{
+
+main-footer  h3{
   display: inline-block;
   }
-footer.main-header h3, footer.main-header a {
-  font-size: 1em;
+footer.main-footer h3, footer.main-footer a {
+  font-size: 0.9em;
   color: #3a3a3a;
   margin: 10px;
 }
 
-footer.main-header a {
-  margin-left: auto;
-  
+.main-footer a {
+   font-weight: 700;  
 }
-footer.main-header a {
+footer.main-footer a {
   text-transform: uppercase;
 }
 
