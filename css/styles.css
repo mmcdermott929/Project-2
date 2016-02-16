@@ -3,141 +3,163 @@
 ==================================== */
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 body {
-	font-family: 'Varela Round', sans-serif;
-	line-height: 1.6;
-	color: #3a3a3a;
-	margin: 0;
+  font-family: 'Varela Round', sans-serif;
+  line-height: 1.6;
+  color: #3a3a3a;
+  margin: 0;
 }
+
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-a {
-	text-decoration: none;
-}
 
+a {
+  text-decoration: none;
+}
 
 
 /* ---- Top section and Navigation ---- */
+
 .main-header {
-    font-weight: 700;
-	text-shadow: .75px .75px .75px rgba(150, 150, 150, 1);
-	padding-top: .5em;
-	padding-bottom: .5em;
-   
+  font-weight: 700;
+  text-shadow: .75px .75px .75px rgba(150, 150, 150, 1);
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
-.top-section, 
+
+.top-section,
 .contact {
-	 background-color:#f8f8f8 ;
+  background-color: #f8f8f8;
 }
 
 .name {
-	font-size: 1.40em;
-	margin: 0;
+  font-size: 1.40em;
+  margin: 0;
 }
+
 .main-nav {
-	margin-top: 5px;
+  margin-top: 5px;
 }
-.name ,
+
+.name,
 .main-nav a {
-	text-align: center;
-	display: block;
-	padding: 10px 15px;
-    margin: 5px 25px 0 25px;
+  text-align: center;
+  display: block;
+  padding: 10px 25px;
+  margin: 5px 10px 0 25px;
 }
+
 .main-nav a {
-	font-size: .95em;
-	color: black;
-	text-transform: uppercase;
-    background-color: white;
-    
+  font-size: .95em;
+  color: black;
+  text-transform: uppercase;
+  background-color: white;
 }
+
 .main-nav a:hover {
-	color: #3178e1;
+  color: #3178e1;
 }
-.developer-image{
-	border-radius: 5px;
-    padding: 30px 50px 0 50px;
-    width: 100%
+
+.developer-image {
+  padding: 30px 50px 0 50px;
+  width: 100%; 
 }
-.about-me p, .portfolio-decription {
-    padding: 0 10px;
-    color:dimgray;
-    text-align: center;
+
+.about-me p,
+.portfolio-decription {
+  padding: 0 10px;
+  color: dimgray;
+  text-align: center;
 }
+
 /* ---- Layout Containers ---- */
-.portfolio-container,.contact {
-	padding: 10px 0 10px;
+
+.portfolio-container,
+.contact {
+  padding: 10px 0 10px;
 }
-.portfolio-container h3, 
+
+.portfolio-container h3,
 .portfolio-name {
-	text-align: center;
+  text-align: center;
 }
-.portfolio-container>h3{
+
+.portfolio-container>h3 {
   text-transform: uppercase;
 }
+
 .portfolio-name {
   color: dimgray;
   margin: 10px 0;
 }
-.portfolio-image{
-    padding: 10px 15px 0 15px;
-    width: 100%
-} 
+
+.portfolio-image {
+  padding: 10px 15px 0 15px;
+  width: 100%;  
+}
+
 .contact {
-	text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-decoration: none;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
 }
+
 .contact h3 {
-	text-transform: uppercase;
-    font-size: 1.0em;
-   
+  text-transform: uppercase;
+  font-size: 1.0em;
 }
-.contact p, .contact a{
-	color: dimgray;
+
+.contact p,
+.contact a {
+  color: dimgray;
 }
-.contact a{
+
+.contact a {
   font-weight: 700;
   display: block;
   padding-bottom: 10px;
 }
-.contact a span{
+
+.contact a span {
   font-weight: normal;
 }
 
-.footer-nav,.main-footer{
+.footer-nav,
+.main-footer {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   justify-content: space-between;
   text-shadow: .75px .75px .75px rgba(150, 150, 150, 1);
 }
-.footer-nav{
-   text-transform: uppercase;
+
+.footer-nav, footer.main-footer a{
+  text-transform: uppercase;
 }
-ul.footer-nav{
+
+ul.footer-nav {
   display: none;
 }
 
-main-footer  h3{
+main-footer h3 {
   display: inline-block;
-  }
-footer.main-footer h3, footer.main-footer a {
+}
+
+footer.main-footer h3,
+footer.main-footer a {
   font-size: 0.9em;
   color: #3a3a3a;
   margin: 10px;
 }
 
 .main-footer a {
-   font-weight: 700;  
-}
-footer.main-footer a {
-  text-transform: uppercase;
+  font-weight: 700;
 }
 
-/* ---- Page Elements ---- */
+
