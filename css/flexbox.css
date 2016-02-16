@@ -1,4 +1,13 @@
+/*Media Queries*/
 
+
+/*--------------------------------*/
+
+
+/*  Greater than 768px screen    */
+
+
+/*--------------------------------*/
 
 @media (min-width: 768px) {
   .main-nav,
@@ -9,11 +18,11 @@
     flex-direction: row;
     justify-content: center
   }
-   .about-me p{
-	flex-basis: 60%
-}
-  .developer-image-container{
-     flex-basis: 40%
+  .about-me p {
+    flex-basis: 60%
+  }
+  .developer-image-container {
+    flex-basis: 40%
   }
   .portfolio-container p,
   .contact p {
@@ -34,12 +43,10 @@
   .developer-image,
   .card {
     padding: 10px 25px 10px 10px;
-   }
-  .card {
-	
-     flex-basis: 50%
   }
-
+  .card {
+    flex-basis: 50%
+  }
   .main-nav a {
     background-color: inherit;
   }
@@ -63,29 +70,32 @@
 }
 
 
-/*---------------------- greater than 1024px ----*/
+/*--------------------------------*/
+
+
+/*  Greater than 1024px screen    */
+
+
+/*--------------------------------*/
 
 @media (min-width: 1024px) {
- 
   .main-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-   .top-section {
+  .top-section {
     padding: 0 25px 0 30px;
-  }  
-  .about-me p{
-	flex-basis: 60%;
-    font-size: 1.4em
-}
-  .developer-image-container{
-     flex-basis: 40%;
   }
- 
-  .developer-image {   
+  .about-me p {
+    flex-basis: 60%;
+    font-size: 1.4em
+  }
+  .developer-image-container {
+    flex-basis: 40%;
+  }
+  .developer-image {
     padding: 10px 10px 10px 10px;
-   
   }
   .card {
     flex-basis: 33%;
@@ -93,7 +103,8 @@
   .portfolio-container p {
     font-size: 1.0em;
   }
-  .contact p, .contact a {
+  .contact p,
+  .contact a {
     padding: 10px 180px;
     font-size: 1.5em;
   }
